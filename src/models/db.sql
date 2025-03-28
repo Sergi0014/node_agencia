@@ -1,0 +1,7 @@
+CREATE TABLE agencia_node(
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    nombre VARCHAR(100) NOT NULL UNIQUE,
+    direccion VARCHAR(100) NOT NULL,
+    telefono INT NOT NULL,
+    create_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+) 
